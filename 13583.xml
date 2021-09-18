@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Armenians</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Arabic collection and transliteration from Ibn Baṭṭūṭa's travel account</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, Armenian collection/transliteration from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>citation generation from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Greek collection and  transliteration from Chalkokondyles' history</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>categorization from Chalkokondyles' history</resp>
+               <name ref="https://medievalmideast.org/editors.xml#jkuch">Josh Kuch</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Laurent's Peregrinatores medii aevi quattuor</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mgaida">Margaret Gaida</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Laurent's Peregrinatores medii aevi quattuor</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Persian collection and transliteration from Nāṣir-i Khusraw's travelogue</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mpapadopoulos">Mary Papadopoulos</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Nāṣir-i Khusraw's travelogue</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Syriac collection and transliteration from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#jmutter">Jessica Mutter</name>
+            </respStmt>
+            <respStmt>
+               <resp>categorization from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/13583.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Michael the Syrian name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Nasir-i Khusraw name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Peregrinatores name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Chalkokondyles name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Sanjian names and events</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Ibn Battuta name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-13583">
+               <persName xml:id="name13583-1" xml:lang="en" himme-tags="#himme-headword">Armenians</persName>
+               <persName xml:id="name13583-2" xml:lang="ar" source="#bib13583-1">
+                  <choice>
+                     <seg xml:lang="ar">الأرمن</seg>
+                     <seg xml:lang="ar-Latn">al-Arman</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-3" xml:lang="hy" source="#bib13583-2">
+                  <choice>
+                     <seg xml:lang="hy">Հայկան ազգի</seg>
+                     <seg xml:lang="hy-Latn">Haykan azgi</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-4" xml:lang="hy" source="#bib13583-3">
+                  <choice>
+                     <seg xml:lang="hy">Հայկեան ազգ</seg>
+                     <seg xml:lang="hy-Latn">Haykean azg</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-5" xml:lang="hy" source="#bib13583-4">
+                  <choice>
+                     <seg xml:lang="hy">Սեռս Հայկայ</seg>
+                     <seg xml:lang="hy-Latn">Seṛs Haykay</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-6" xml:lang="el" source="#bib13583-5 #bib13583-6">
+                  <choice>
+                     <seg xml:lang="el">Ἀρμένιοι, Ἀρμενίων, Ἀρμενίους</seg>
+                     <seg xml:lang="el-Latn">Armenioi, Armeniōn, Armenious</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-7" xml:lang="la" source="#bib13583-7">
+                  <choice>
+                     <seg xml:lang="la">Armenii</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-8" xml:lang="la" source="#bib13583-8">
+                  <choice>
+                     <seg xml:lang="la">Armeni</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-9" xml:lang="fa" source="#bib13583-9">
+                  <choice>
+                     <seg xml:lang="fa">ارمنیان</seg>
+                     <seg xml:lang="fa-Latn">Armaniyān</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13583-10" xml:lang="syr" source="#bib13583-10">
+                  <choice>
+                     <seg xml:lang="syr">ܐܪ̈ܡܢܝܐ</seg>
+                     <seg xml:lang="syr-Latn">ʾRMΝYʾ</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-13583">A group</note>
+               <sex value="G">group</sex>
+               <event type="reference" source="#bib13583-1">
+                  <desc xml:lang="en">Event mentioned by <placeName ref="https://medievalmideast.org/person/19773">Ibn Baṭṭūṭa</placeName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1354">before 1354 CE</date>
+                  </label>
+                  <label type="composition">
+                     <date type="between" notBefore="1354" notAfter="1356">1354-1356</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1766">early 1180 A.H. / 1766</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1997">1997</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-2">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13515">Yovannēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1333">1333</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1333">1333</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1333">1333</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-3">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13189">Grigor Erēts‘</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1335">1335</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1335">1335</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1335">1335</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-4">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13331">Ṛstakēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1315">1315</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1315">1315</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1315">1315</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-5">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13857">Laonikos Chalkokondyles</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1464">before 1464</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1464" notAfter="1468">1464-1468</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1468" notAfter="1500">mid-late 15th C</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2014">2014</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-6">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13642">Georgios Amiroutzes</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1470">before 1470</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1464" notAfter="1470">1464-1470</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1468" notAfter="1500">mid-late 15th C</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2014">2014</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-7 #bib13583-8">
+                  <desc xml:lang="en">Events mentioned by <persName>Burchard of Mount Sion</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="circa" notBefore="1274" to="1285">c.1280</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1282" notAfter="1285">c.1284</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1300" notAfter="1400">14th C</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1864">1864</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-9">
+                  <desc xml:lang="en">Events mentioned by <persName>Nāṣir-i Khusraw</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="between" notBefore="1045" notAfter="1052">c. 1050</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1052" notAfter="1077">circa 1065</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1494-10-01" notAfter="1592-10-07">10th C Hijrī/16th C CE</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2001">2001</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13583-10">
+                  <desc xml:lang="en">Events mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1199">before 1199</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1598">1598</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2009">2009</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/13583</idno>
+               <bibl xml:id="bib13583-1">
+                  <author>Ibn Baṭṭūṭa</author>
+                  <editor>ʿAbd al-Hādī al-Tāzī</editor>
+                  <title xml:lang="ar-Latn">Riḥlat Ibn Baṭṭūṭa: al-musammāt Tuḥfat al-niẓār fī gharāʾib al-amṣār wa-ʿajāʾib al-asfār</title>
+                  <pubPlace>al-Ribāṭ</pubPlace>
+                  <publisher>Akādīmiyyat al-Mamlaka al-Maghribiyya</publisher>
+                  <date>1417 H [1996-97]</date>
+                  <ptr target="http://medievalmideast.org/bibl/34"/>
+                  <citedRange unit="page">1:284-285; 2:183</citedRange>
+                  <textLang>Arabic</textLang>
+                  <bibl type="translation">
+                     <author>Ibn Baṭṭūṭa</author>
+                     <editor role="translator">H. A. R. Gibb</editor>
+                     <editor role="translator">C. F. Beckingham</editor>
+                     <editor>A. D. H. Bivar</editor>
+                     <title xml:lang="en">The Travels of Ibn Baṭṭūṭa, A.D. 1325-1354</title>
+                     <pubPlace>London</pubPlace>
+                     <publisher>The Hakluyt Society</publisher>
+                     <date>1958-2000</date>
+                     <ptr target="http://medievalmideast.org/bibl/1"/>
+                     <citedRange unit="page">I, 104; II, 437</citedRange>
+                     <textLang>English</textLang>
+                     <term>Armenians </term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13583-2">
+                  <author ref="https://medievalmideast.org/person/13515">Yovannēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 315</citedRange>
+                  <citedRange unit="page">p. 255</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1333 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Haykan azgi</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13583-3">
+                  <author ref="https://medievalmideast.org/person/13189">Grigor Erēts‘</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 332</citedRange>
+                  <citedRange unit="page">p. 268</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1335 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Haykean azg</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13583-4">
+                  <author ref="https://medievalmideast.org/person/13331">Ṛstakēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 151</citedRange>
+                  <citedRange unit="page">pp. 114-115</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1315 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Seṙs Haykay</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13583-5">
+                  <author>Laonikos Chalkokondyles</author>
+                  <editor>Anthony Kaldellis</editor>
+                  <title xml:lang="en">The Histories</title>
+                  <pubPlace>Cambridge, Massachusetts</pubPlace>
+                  <publisher>Harvard University Press</publisher>
+                  <series>Dumbarton Oaks Medieval Library</series>
+                  <date>2014</date>
+                  <ptr target="http://medievalmideast.org/bibl/18"/>
+                  <citedRange unit="para">2.8, 9; 3.18, 37, 40, 50, 71-72; 7.69; 9.26</citedRange>
+                  <textLang>Greek with English translation</textLang>
+                  <term>Armenians</term>
+               </bibl>
+               <bibl xml:id="bib13583-6">
+                  <author>Laonikos Chalkokondyles</author>
+                  <editor>Anthony Kaldellis</editor>
+                  <title xml:lang="en">The Histories</title>
+                  <pubPlace>Cambridge, Massachusetts</pubPlace>
+                  <publisher>Harvard University Press</publisher>
+                  <series>Dumbarton Oaks Medieval Library</series>
+                  <date>2014</date>
+                  <ptr target="http://medievalmideast.org/bibl/18"/>
+                  <citedRange unit="para">9.32</citedRange>
+                  <textLang>Greek with English translation</textLang>
+                  <term>Armenians</term>
+               </bibl>
+               <bibl xml:id="bib13583-7">
+                  <author>Burchard of Mount Sion</author>
+                  <editor>J. C. M. Laurent</editor>
+                  <title xml:lang="la">Peregrinatores medii aevi quattuor</title>
+                  <pubPlace>Leipzig</pubPlace>
+                  <publisher>J.C. Hinrichs</publisher>
+                  <date>1864</date>
+                  <ptr target="http://medievalmideast.org/bibl/31"/>
+                  <citedRange unit="para">XIII 5. 9.</citedRange>
+                  <textLang>Latin</textLang>
+                  <term>Armenii</term>
+               </bibl>
+               <bibl xml:id="bib13583-8">
+                  <author>Burchard of Mount Sion</author>
+                  <editor>J. C. M. Laurent</editor>
+                  <title xml:lang="la">Peregrinatores medii aevi quattuor</title>
+                  <pubPlace>Leipzig</pubPlace>
+                  <publisher>J.C. Hinrichs</publisher>
+                  <date>1864</date>
+                  <ptr target="http://medievalmideast.org/bibl/31"/>
+                  <citedRange unit="para">II 18, III 12.</citedRange>
+                  <textLang>Latin</textLang>
+                  <term>Armeni</term>
+               </bibl>
+               <bibl xml:id="bib13583-9">
+                  <author>Nāṣir-i Khusraw</author>
+                  <editor>Wheeler M. Thackson</editor>
+                  <title xml:lang="en">Nasir-i Khusraw's Book of Travels</title>
+                  <pubPlace>Costa Mesa, Calif.</pubPlace>
+                  <publisher>Mazda Publishers</publisher>
+                  <date>2001</date>
+                  <ptr target="http://medievalmideast.org/bibl/29"/>
+                  <citedRange unit="page">8</citedRange>
+                  <textLang>Persian with English translation</textLang>
+                  <term>Armenians</term>
+               </bibl>
+               <bibl xml:id="bib13583-10">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">8</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1899-1905</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">I, 15, 31, 32, 119, 120, 194, 204; II, 282, 314, 371, 414, 417, 474, 482, 492; III, 132, 133, 141, 158, 169, 184, 187, 196, 198, 205, 206, 226, 238, 240, 244, 255, 256, 313, 314, 336, 346, 361, 413, 450</citedRange>
+                     <textLang>French</textLang>
+                     <term>Arméniens</term>
+                  </bibl>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

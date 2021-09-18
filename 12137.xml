@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Heraclius</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>abstract</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>Wikipedia matching</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Arabic name collection and transcription from Nuʿaym Ibn Ḥammād’s Kitāb al-Fitan</resp>
+               <name ref="https://medievalmideast.org/editors.xml#jmutter">Jessica Mutter</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Syriac collection and transliteration from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#jmutter">Jessica Mutter</name>
+            </respStmt>
+            <respStmt>
+               <resp>categorization from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/12137.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-07-31-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-09-13-05:00">CHANGED: abstract xml:id</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-07-31-05:00">ADDED: Michael the Syrian name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-07-31-05:00">ADDED: Nu`aym name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-07-31-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-07-31-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-12137">
+               <persName xml:id="name12137-1" xml:lang="en" himme-tags="#himme-headword">Heraclius</persName>
+               <persName xml:id="name12137-2" xml:lang="ar" source="#bib12137-1 #bib12137-2">
+                  <choice>
+                     <seg xml:lang="ar">هرقل</seg>
+                     <seg xml:lang="ar-Latn">Hiraql</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12137-3" xml:lang="syr" source="#bib12137-3">
+                  <choice>
+                     <seg xml:lang="syr">ܐܝܪܩܠܝܣ</seg>
+                     <seg xml:lang="syr-Latn">ʾĪraqlīs</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-12137">Byzantine Emperor.</note>
+               <sex value="M">male</sex>
+               <death when="0641" source="#bib12137-11">641 CE</death>
+               <state type="office" role="emperor" from="0610" to="0641" source="#bib12137-5 #bib12137-11">
+                  <desc xml:lang="en">Roman Emperor</desc>
+               </state>
+               <event type="reference" source="#bib12137-1">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12137-2">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/11851">Nuʿaym b. Ḥammād</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="0843">before 843 CE</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="0815" notAfter="0843">c. 820-843 CE</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1288-02-05" notAfter="1289-01-24">687 A.H. / 1288-9 CE</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1993">1993</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12137-3">
+                  <desc xml:lang="en">Events mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1199">before 1199</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1598">1598</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2009">2009</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12137-4">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0609-09-01" notAfter="0610-08-31">921 AG / 609-10 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-5">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0610-09-01" notAfter="0621-08-31">922-932 AG / 610-621 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-6">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0621-09-01" notAfter="0622-08-31">933 AG / 621-622 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-7">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0621-09-01" notAfter="0630-08-31">933-941 AG / 621-630 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-8">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0633-09-01" notAfter="0634-08-31">945 AG / 633-34 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-9">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0634-09-01" notAfter="0636-08-31">946-947 AG / 634-636 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-10">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0631-09-01" notAfter="0639-08-31">940s AG / 630s CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-11">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0636-09-01" notAfter="0641-08-31">948-952 AG / 636-641 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-12">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0640-09-01" notAfter="0650-08-31">952-961 AG / 640-650 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-13">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0610-09-01" notAfter="0641-08-31">610-641 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-14">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0803-09-01" notAfter="0804-08-31">1115 AG / 803-4 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-15">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="between" notBefore="0638-09-01" notAfter="0639-08-31">950 AG / 638-9 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <event type="reference" source="#bib12137-16">
+                  <desc xml:lang="en">Event mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>.</desc>
+                  <label type="event"><date type="before" notBefore="0600" to="1147-08-31">before 1458 AG / 1147 CE</date></label>
+                  <label type="composition"><date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date></label>
+                  <label type="manuscript"><date type="point" when="1598">1598</date></label>
+                  <label type="edition"><date type="point" when="2009">2009</date></label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/12137</idno>
+               <idno type="URI">http://en.wikipedia.org/wiki/Heraclius</idno>
+               <bibl xml:id="bib12137-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 103 (2) 80، 303 (3) 279، 280 (4) 262 (5) 238</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib12137-2">
+                  <author xml:lang="ar-Latn">Nuʿaym b. Ḥammād</author>
+                  <editor xml:lang="ar-Latn">Suhayl Zakkār</editor>
+                  <title xml:lang="ar-Latn">Kitāb al-Fitan</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār al-Fikr</publisher>
+                  <date>1993</date>
+                  <ptr target="http://medievalmideast.org/bibl/27"/>
+                  <citedRange unit="page">136, 237, 287, 288, 292, 299, 300, 301, 303, 305, 306, 310, 322</citedRange>
+                  <textLang>Arabic</textLang>
+                  <bibl type="translation">
+                     <author xml:lang="ar-Latn">Nuʿaym b. Ḥammād</author>
+                     <editor role="translator">David Cook</editor>
+                     <title xml:lang="en">The Book of Tribulations: The Syrian Muslim Apocalyptic Tradition</title>
+                     <pubPlace>Edinburgh</pubPlace>
+                     <publisher>Edinburgh University Press</publisher>
+                     <date>2017</date>
+                     <ptr target="http://medievalmideast.org/bibl/28"/>
+                     <citedRange unit="page">124, 285, 287, 303, 305–6, 308, 312</citedRange>
+                     <textLang>English</textLang>
+                     <term>Heraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-3">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor role="translator">J.-B. Chabot</editor>
+                  <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Ernest Leroux</publisher>
+                  <date>1899</date>
+                  <ptr target="http://medievalmideast.org/bibl/26"/>
+                  <citedRange unit="page">I, 2</citedRange>
+                  <textLang>French</textLang>
+                  <term>Héraclius</term>
+               </bibl>
+               <bibl xml:id="bib12137-4">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">394</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 378</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-5">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">406-407</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 400-402</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-6">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">407</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 403, 405</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-7">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">411-413</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 408-412</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-8">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">416</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 414</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-9">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">417</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 417-418</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-10">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">418</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 422</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-11">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">421-424</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 424-427</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-12">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">424</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 430, 431</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-13">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">429</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 435, 444</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-14">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">492</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1905</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">III, 16</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-15">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">554</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1905</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">III, 122</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12137-16">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">642</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1905</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">III, 279</citedRange>
+                     <textLang>French</textLang>
+                     <term>Héraclius</term>
+                  </bibl>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

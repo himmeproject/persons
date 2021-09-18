@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Maḥmūd b. ʿUmar Abū l-Qāsim al-Zamakhsharī Jār Allāh</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Arabic collection and transliteration from Ibn Baṭṭūṭa's travel account</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/10815.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Ibn Battuta name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-10815">
+               <persName xml:id="name10815-1" xml:lang="en" himme-tags="#himme-headword">Maḥmūd b. ʿUmar Abū l-Qāsim al-Zamakhsharī Jār Allāh</persName>
+               <persName xml:id="name10815-2" xml:lang="ar" source="#bib10815-1">
+                  <choice>
+                     <seg xml:lang="ar">محمود بن عمر أبو القاسم الزمخشري</seg>
+                     <seg xml:lang="ar-Latn">Maḥmūd b. ʿUmar Abū l-Qāsim al-Zamakhsharī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name10815-3" xml:lang="ar" source="#bib10815-2">
+                  <choice>
+                     <seg xml:lang="ar">جار الله</seg>
+                     <seg xml:lang="ar-Latn">Jār Allāh</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name10815-4" xml:lang="ar" source="#bib10815-3">
+                  <choice>
+                     <seg xml:lang="ar">أبو القاسم محمود بن عمر الزمخشري</seg>
+                     <seg xml:lang="ar-Latn">Abū l-Qāsim Maḥmūd b. ʿUmar al-Zamakhsharī</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-10815">A person</note>
+               <sex value="M">male</sex>
+               <event type="reference" source="#bib10815-1 #bib10815-2">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib10815-3">
+                  <desc xml:lang="en">Event mentioned by <placeName ref="https://medievalmideast.org/person/19773">Ibn Baṭṭūṭa</placeName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1354">before 1354 CE</date>
+                  </label>
+                  <label type="composition">
+                     <date type="between" notBefore="1354" notAfter="1356">1354-1356</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1766">early 1180 A.H. / 1766</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1997">1997</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/10815</idno>
+               <bibl xml:id="bib10815-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 11، 66، 94، 102، 117، 119، 125، 127، 155، 248، 253، 255، 276، 346، 374، 376، 398، 493، 503، 505 (2) 13، 15، 35، 37، 64، 65، 73، 76، 79، 86، 114، 140، 150، 159، 169، 195، 213، 217، 234، 246، 272، 274، 278، 281، 296، 297، 310، 342، 363، 375، 389، 399، 440 (3) 44، 63، 142، 147، 155، 229، 262، 270، 355، 364، 388، 454 (4) 24، 80، 120، 148، 157، 190، 280، 363، 385، 403، 477 (5) 43، 49، 52، 59، 143، 175، 251، 291، 294، 377، 454</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib10815-2">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 375 (2) 119، 318 (3) 250، 398 (4) 164، 307، 312 (5) 67، 97، 190</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib10815-3">
+                  <author>Ibn Baṭṭūṭa</author>
+                  <editor>ʿAbd al-Hādī al-Tāzī</editor>
+                  <title xml:lang="ar-Latn">Riḥlat Ibn Baṭṭūṭa: al-musammāt Tuḥfat al-niẓār fī gharāʾib al-amṣār wa-ʿajāʾib al-asfār</title>
+                  <pubPlace>al-Ribāṭ</pubPlace>
+                  <publisher>Akādīmiyyat al-Mamlaka al-Maghribiyya</publisher>
+                  <date>1417 H [1996-97]</date>
+                  <ptr target="http://medievalmideast.org/bibl/34"/>
+                  <citedRange unit="page">3:11</citedRange>
+                  <textLang>Arabic</textLang>
+                  <bibl type="translation">
+                     <author>Ibn Baṭṭūṭa</author>
+                     <editor role="translator">H. A. R. Gibb</editor>
+                     <editor role="translator">C. F. Beckingham</editor>
+                     <editor>A. D. H. Bivar</editor>
+                     <title xml:lang="en">The Travels of Ibn Baṭṭūṭa, A.D. 1325-1354</title>
+                     <pubPlace>London</pubPlace>
+                     <publisher>The Hakluyt Society</publisher>
+                     <date>1958-2000</date>
+                     <ptr target="http://medievalmideast.org/bibl/1"/>
+                     <citedRange unit="page">III, 543</citedRange>
+                     <textLang>English</textLang>
+                     <term>Abuʾl-Qāsim Maḥmūd ibn ʿOmar al-Zamakhsharī</term>
+                  </bibl>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

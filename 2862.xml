@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">al-Ḥasan b. Aḥmad Abū l-Ḥusayn al-Muhallabī</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>abstract</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/2862.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-2862">
+               <persName xml:id="name2862-1" xml:lang="en" himme-tags="#himme-headword">al-Ḥasan b. Aḥmad Abū l-Ḥusayn al-Muhallabī</persName>
+               <persName xml:id="name2862-2" xml:lang="ar" source="#bib2862-1">
+                  <choice>
+                     <seg xml:lang="ar">الحسن بن أحمد أبو الحسين المهلبي</seg>
+                     <seg xml:lang="ar-Latn">al-Ḥasan b. Aḥmad Abū l-Ḥusayn al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-3" xml:lang="ar" source="#bib2862-2">
+                  <choice>
+                     <seg xml:lang="ar">محمد بن الحسن بن المهلب</seg>
+                     <seg xml:lang="ar-Latn">Muḥammad b. al-Ḥasan b. al-Muhallab</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-4" xml:lang="ar" source="#bib2862-3">
+                  <choice>
+                     <seg xml:lang="ar">أبو الحسن المهلبي</seg>
+                     <seg xml:lang="ar-Latn">Abū l-Ḥasan al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-5" xml:lang="ar" source="#bib2862-4">
+                  <choice>
+                     <seg xml:lang="ar">المهلبي</seg>
+                     <seg xml:lang="ar-Latn">al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-6" xml:lang="ar" source="#bib2862-5">
+                  <choice>
+                     <seg xml:lang="ar">الحسين بن محمد المهلبي</seg>
+                     <seg xml:lang="ar-Latn">al-Ḥusayn b. Muḥammad al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-7" xml:lang="ar" source="#bib2862-6">
+                  <choice>
+                     <seg xml:lang="ar">الحسن بن محمد المهلبي</seg>
+                     <seg xml:lang="ar-Latn">al-Ḥasan b. Muḥammad al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-8" xml:lang="ar" source="#bib2862-7">
+                  <choice>
+                     <seg xml:lang="ar">الحسين ابن أحمد المهلبي</seg>
+                     <seg xml:lang="ar-Latn">al-Ḥusayn b. Aḥmad al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-9" xml:lang="ar" source="#bib2862-8">
+                  <choice>
+                     <seg xml:lang="ar">الحسن بن محمد المهلبي المصري</seg>
+                     <seg xml:lang="ar-Latn">al-Ḥasan b. Muḥammad al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name2862-10" xml:lang="ar" source="#bib2862-9">
+                  <choice>
+                     <seg xml:lang="ar">محمد بن الحسن المهلبي</seg>
+                     <seg xml:lang="ar-Latn">Muḥammad b. al-Ḥasan al-Muhallabī</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-2862">Author of al-Kitāb al-ʿAzīzī</note>
+               <sex value="M">male</sex>
+               <event type="reference"
+                      source="#bib2862-1 #bib2862-2 #bib2862-3 #bib2862-4 #bib2862-5 #bib2862-6 #bib2862-7 #bib2862-8 #bib2862-9">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/2862</idno>
+               <bibl xml:id="bib2862-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 11، 195، 196، 495 (3) 176 (4) 321 (5) 211</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-2">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 84، 292</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-3">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 235، 240، 501 (2) 145، 158، 189، 232 (3) 316 (5) 409، 419</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-4">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 277 (2) 9 (3) 54، 69، 113، 142 (4) 153، 157، 202، 334، 387، 409، 495 (5) 18، 109، 132، 145، 190، 220، 315، 418</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-5">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(2) 51 (3) 454</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-6">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(2) 473 (3) 242، 342، 406 (4) 114، 203، 255، 332</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-7">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(4) 43</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-8">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(4) 347</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib2862-9">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(5) 79</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Greeks</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Armenian collection/transliteration from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>citation generation from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Hebrew collection from Benjamin of Tudela's travelogue</resp>
+               <name ref="https://medievalmideast.org/editors.xml#lyadgar">Liran Yadgar</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hebrew transliteration from Benjamin of Tudela's travelogue</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Laurent's Peregrinatores medii aevi quattuor</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mgaida">Margaret Gaida</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Laurent's Peregrinatores medii aevi quattuor</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Syriac collection and transliteration from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#jmutter">Jessica Mutter</name>
+            </respStmt>
+            <respStmt>
+               <resp>categorization from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/12658.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Michael the Syrian name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Peregrinatores name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Benjamin of Tudela name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Sanjian names and events</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-12658">
+               <persName xml:id="name12658-1" xml:lang="en" himme-tags="#himme-headword">Greeks</persName>
+               <persName xml:id="name12658-2" xml:lang="ar" source="#bib12658-1">
+                  <choice>
+                     <seg xml:lang="ar">اليونان</seg>
+                     <seg xml:lang="ar-Latn">al-Yūnān</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-3" xml:lang="hy" source="#bib12658-2">
+                  <choice>
+                     <seg xml:lang="hy">Յունաց</seg>
+                     <seg xml:lang="hy-Latn">Yunats‘</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-4" xml:lang="hy" source="#bib12658-2">
+                  <choice>
+                     <seg xml:lang="hy">Յունական</seg>
+                     <seg xml:lang="hy-Latn">Yunakan</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-5" xml:lang="he" source="#bib12658-3 #bib12658-8">
+                  <choice>
+                     <seg xml:lang="he">יוונים</seg>
+                     <seg xml:lang="he-Latn">YWWNYM</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-6" xml:lang="he" source="#bib12658-4">
+                  <choice>
+                     <seg xml:lang="he">יונים</seg>
+                     <seg xml:lang="he-Latn">YWNYM</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-7" xml:lang="he" source="#bib12658-5">
+                  <choice>
+                     <seg xml:lang="he">יון</seg>
+                     <seg xml:lang="he-Latn">YWN</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-8" xml:lang="he" source="#bib12658-6">
+                  <choice>
+                     <seg xml:lang="he">גריגוש</seg>
+                     <seg xml:lang="he-Latn">GRYGWŚ</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-9" xml:lang="he" source="#bib12658-7">
+                  <choice>
+                     <seg xml:lang="he">גריזיאנוש</seg>
+                     <seg xml:lang="he-Latn">GRYZYʾNWŚ</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-10" xml:lang="la" source="#bib12658-9">
+                  <choice>
+                     <seg xml:lang="la">Greci</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-11" xml:lang="syr" source="#bib12658-10">
+                  <choice>
+                     <seg xml:lang="syr">ܝܘ̈ܢܝܐ</seg>
+                     <seg xml:lang="syr-Latn">YWΝYʾ</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name12658-12" xml:lang="syr" source="#bib12658-11">
+                  <choice>
+                     <seg xml:lang="syr">ܒܢ̈ܝ ܝܘܢ</seg>
+                     <seg xml:lang="syr-Latn">BΝY YWΝ</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-12658">A group</note>
+               <sex value="G">group</sex>
+               <event type="reference" source="#bib12658-1">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12658-2">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/12728">Abraham Ankiwrats‘i</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1453">before 1453</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1453" notAfter="1500">late 15th C</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1660">1660</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1957">1957</date>
+                  </label>
+               </event>
+               <event type="reference"
+                      source="#bib12658-3 #bib12658-4 #bib12658-5 #bib12658-6 #bib12658-7 #bib12658-8">
+                  <desc xml:lang="en">Events mentioned by <persName ref="https://medievalmideast.org/person/14146">Benjamin of Tudela</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1180">before c.1170</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1163" notAfter="1183">c.1173</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1200" notAfter="1300">13th C</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1907">1907</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12658-9">
+                  <desc xml:lang="en">Events mentioned by <persName>Burchard of Mount Sion</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="circa" notBefore="1274" to="1285">c.1280</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1282" notAfter="1285">c.1284</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1300" notAfter="1400">14th C</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1864">1864</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12658-10 #bib12658-11">
+                  <desc xml:lang="en">Events mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1199">before 1199</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1598">1598</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2009">2009</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/12658</idno>
+               <bibl xml:id="bib12658-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 455 (2) 303</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib12658-2">
+                  <author ref="https://medievalmideast.org/person/12728">Abraham Ankiwrats‘i</author>
+                  <editor>H. S. Anasyan</editor>
+                  <title xml:lang="hy-Latn">Haykakan Aghbyurnerě Byuzandiayi Ankman Masin</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1957</date>
+                  <ptr target="http://medievalmideast.org/bibl/23"/>
+                  <citedRange unit="page">pp. 35-55</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1453 (no. 3)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Yunac‘, Yunakan</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12658-3">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">12, 15, 18, 20, 22, 23, 24, 26, 34, 104, 105</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Greeks</term>
+               </bibl>
+               <bibl xml:id="bib12658-4">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">14</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Greeks</term>
+               </bibl>
+               <bibl xml:id="bib12658-5">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">16</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Greeks</term>
+               </bibl>
+               <bibl xml:id="bib12658-6">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">26, 106</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Greeks</term>
+               </bibl>
+               <bibl xml:id="bib12658-7">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">19</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Greece</term>
+               </bibl>
+               <bibl xml:id="bib12658-8">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">26</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Javanim</term>
+               </bibl>
+               <bibl xml:id="bib12658-9">
+                  <author>Burchard of Mount Sion</author>
+                  <editor>J. C. M. Laurent</editor>
+                  <title xml:lang="la">Peregrinatores medii aevi quattuor</title>
+                  <pubPlace>Leipzig</pubPlace>
+                  <publisher>J.C. Hinrichs</publisher>
+                  <date>1864</date>
+                  <ptr target="http://medievalmideast.org/bibl/31"/>
+                  <citedRange unit="para">prol. 9, II 18. III 12, VII 17. 40, XII 6, XIII 4.</citedRange>
+                  <textLang>Latin</textLang>
+                  <term>Greci</term>
+               </bibl>
+               <bibl xml:id="bib12658-10">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">8</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1899-1905</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">I, 15, 19, 32; III, 136, 151, 238, 304, 334, 336, 369-372, 402, 403, 470</citedRange>
+                     <textLang>French</textLang>
+                     <term>Grecs</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12658-11">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">13</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1899</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">I, 24</citedRange>
+                     <textLang>French</textLang>
+                     <term>Yavan (descendants de)</term>
+                  </bibl>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

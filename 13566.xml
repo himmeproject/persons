@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Hagarenes</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>abstract</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, Armenian collection/transliteration from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>citation generation from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching, Syriac collection and transliteration from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>matching from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#jmutter">Jessica Mutter</name>
+            </respStmt>
+            <respStmt>
+               <resp>categorization from Michael's chronicle</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/13566.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Michael the Syrian name and event</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Sanjian names and events</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-13566">
+               <persName xml:id="name13566-1" xml:lang="en" himme-tags="#himme-headword">Hagarenes</persName>
+               <persName xml:id="name13566-2" xml:lang="hy" source="#bib13566-1">
+                  <choice>
+                     <seg xml:lang="hy">Ազգն Հագարայ</seg>
+                     <seg xml:lang="hy-Latn">Azgn Hagaray</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13566-3" xml:lang="hy" source="#bib13566-2">
+                  <choice>
+                     <seg xml:lang="hy">Ազգն Հագարեան</seg>
+                     <seg xml:lang="hy-Latn">Azgn Hagarean</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13566-4" xml:lang="hy" source="#bib13566-3 #bib13566-4">
+                  <choice>
+                     <seg xml:lang="hy">Ազգն Հագարու</seg>
+                     <seg xml:lang="hy-Latn">Azgn Hagaru</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13566-5" xml:lang="hy" source="#bib13566-1">
+                  <choice>
+                     <seg xml:lang="hy">Հագար</seg>
+                     <seg xml:lang="hy-Latn">Hagar</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13566-6" xml:lang="hy" source="#bib13566-5">
+                  <choice>
+                     <seg xml:lang="hy">Հագարացիք</seg>
+                     <seg xml:lang="hy-Latn">Hagarats‘ik‘</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13566-7" xml:lang="hy" source="#bib13566-6">
+                  <choice>
+                     <seg xml:lang="hy">Հագարացոց</seg>
+                     <seg xml:lang="hy-Latn">Hagarats‘ots‘</seg>
+                  </choice>
+               </persName>
+               <persName xml:id="name13566-8" xml:lang="syr" source="#bib13566-7">
+                  <choice>
+                     <seg xml:lang="syr">ܗܓܪ̈ܝܐ</seg>
+                     <seg xml:lang="syr-Latn">HGRYʾ</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-13566">A Christian derogatory term for Muslims</note>
+               <sex value="G">group</sex>
+               <event type="reference" source="#bib13566-1">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13398">Step‘anos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1476">1476</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1476">1476</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1476">1476</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1958">1958</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13566-2">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13189">Grigor Erēts‘</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1335">1335</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1335">1335</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1335">1335</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13566-3">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13533">Yovhannēs Naghash</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1346">1346</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1346">1346</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1346">1346</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13566-4">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13456">Yakob</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1426">1426</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1426">1426</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1426">1426</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13566-5">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13235">Ghazar</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1431">1431</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1431">1431</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1431">1431</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13566-6">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13407">T‘adēos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1303">1303</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1303">1303</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1303">1303</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib13566-7">
+                  <desc xml:lang="en">Events mentioned by <persName ref="http://medievalmideast.org/person/17330">Michael the Syrian</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1199">before 1199</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1195" notAfter="1199">1195-1199?</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1598">1598</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="2009">2009</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/13566</idno>
+               <bibl xml:id="bib13566-1">
+                  <author ref="https://medievalmideast.org/person/13398">Step‘anos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1958</date>
+                  <ptr target="http://medievalmideast.org/bibl/25"/>
+                  <citedRange unit="entry">no. 496</citedRange>
+                  <citedRange unit="page">II: pp. 393-396</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1476 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Azgn Hagaray, Hagar</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13566-2">
+                  <author ref="https://medievalmideast.org/person/13189">Grigor Erēts‘</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 332</citedRange>
+                  <citedRange unit="page">p. 268</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1335 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Azgn Hagarean</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13566-3">
+                  <author ref="https://medievalmideast.org/person/13533">Yovhannēs Naghash</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 433</citedRange>
+                  <citedRange unit="page">p. 346</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1346 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Azgn Hagaru</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13566-4">
+                  <author ref="https://medievalmideast.org/person/13456">Yakob</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 368</citedRange>
+                  <citedRange unit="page">I: p. 349</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1426 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Azgn Hagaru</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13566-5">
+                  <author ref="https://medievalmideast.org/person/13235">Ghazar</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 434</citedRange>
+                  <citedRange unit="page">I: p. 407</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1431 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Hagarac‘ik‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13566-6">
+                  <author ref="https://medievalmideast.org/person/13407">T‘adēos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 16a</citedRange>
+                  <citedRange unit="page">p. 15</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1303 (no. 3)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Hagarac‘oc‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib13566-7">
+                  <author ref="http://medievalmideast.org/person/17330">Michael the Syrian</author>
+                  <editor>Gregorios Yuhanna Ibrahim</editor>
+                  <title xml:lang="en">The Edessa-Aleppo Syriac Codex of the Chronicle of Michael the Great</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2009</date>
+                  <ptr target="http://medievalmideast.org/bibl/13"/>
+                  <citedRange unit="page">408</citedRange>
+                  <textLang>Syriac</textLang>
+                  <bibl type="translation">
+                     <author>Michael the Syrian</author>
+                     <editor role="translator">J.-B. Chabot</editor>
+                     <title xml:lang="fr">Chronique de Michel le Syrien</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Ernest Leroux</publisher>
+                     <date>1901</date>
+                     <ptr target="http://medievalmideast.org/bibl/26"/>
+                     <citedRange unit="page">II, 403</citedRange>
+                     <textLang>French</textLang>
+                     <term>Hagarayè</term>
+                  </bibl>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

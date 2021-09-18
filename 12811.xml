@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Dawit‘</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>birth/death/floruit dates entry</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, Armenian collection/transliteration from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>citation generation from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/12811.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Sanjian names and events</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-12811">
+               <persName xml:id="name12811-1" xml:lang="en" himme-tags="#himme-headword">Dawit‘</persName>
+               <persName xml:id="name12811-2"
+                         xml:lang="hy"
+                         source="#bib12811-1 #bib12811-2 #bib12811-3 #bib12811-4 #bib12811-5 #bib12811-6 #bib12811-7 #bib12811-8 #bib12811-9 #bib12811-10 #bib12811-11 #bib12811-12 #bib12811-13 #bib12811-14 #bib12811-15 #bib12811-16 #bib12811-17 #bib12811-18 #bib12811-19 #bib12811-20 #bib12811-21 #bib12811-22 #bib12811-23 #bib12811-24 #bib12811-25 #bib12811-26 #bib12811-27 #bib12811-28 #bib12811-29 #bib12811-30 #bib12811-31 #bib12811-32">
+                  <choice>
+                     <seg xml:lang="hy">Դաւիթ</seg>
+                     <seg xml:lang="hy-Latn">Dawit‘</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-12811">A person</note>
+               <sex value="M">male</sex>
+               <death when="1433">1433</death>
+               <event type="reference" source="#bib12811-1">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13388">Step‘anos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1395">1395</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1395">1395</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1395">1395</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-2">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13310">Nersēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1397">1397</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1397">1397</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1397">1397</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-3">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/12846">Grigor (Tserents‘) Khlat‘ets‘i</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1400">1400</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1400">1400</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1400">1400</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-4">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13493">Yovanēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1400">1400</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1400">1400</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1400">1400</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1950">1950</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-5">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13151">Tserun</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-6">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13551">Zak‘aria (I)</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-7">
+                  <desc xml:lang="en">Event mentioned by an Armenian scribe.</desc>
+                  <label type="event">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1401">1401</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-8">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13494">Yovanēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1402">1402</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1402">1402</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1402">1402</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-9">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13376">Step‘annos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1404">1404</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1404">1404</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1404">1404</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-10">
+                  <desc xml:lang="en">Event mentioned by an Armenian scribe.</desc>
+                  <label type="event">
+                     <date type="point" when="1405">1405</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1405">1405</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1405">1405</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-11">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13494">Yovanēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1407">1407</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1407">1407</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1407">1407</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-12">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13551">Zak‘aria (I)</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1413">1413</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1413">1413</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1413">1413</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-13">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13206">Karapet</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1413">1413</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1413">1413</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1413">1413</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-14">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13232">Ghazar</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1414">1414</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1414">1414</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1414">1414</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-15">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13377">Step‘annos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1415">1415</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1415">1415</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1415">1415</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-16">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13233">Ghazar</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1415">1415</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1415">1415</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1415">1415</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-17">
+                  <desc xml:lang="en">Event mentioned by an Armenian scribe.</desc>
+                  <label type="event">
+                     <date type="point" when="1417">1417</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1417">1417</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1417">1417</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-18">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13124">Astuatsatur</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1417">1417</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1417">1417</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1417">1417</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-19">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13378">Step‘annos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1419">1419</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1419">1419</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1419">1419</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-20">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13379">Step‘annos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1419">1419</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1419">1419</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1419">1419</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-21">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13427">T‘umay Minasents‘</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-22">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13199">Izit</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-23">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13380">Step‘annos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1420">1420</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-24">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13364">Simēon</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1421">1421</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1421">1421</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1421">1421</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-25">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13434">Vardan</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1421">1421</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1421">1421</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1421">1421</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-26">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13206">Karapet</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1423">1423</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1423">1423</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1423">1423</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-27">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13427">T‘umay Minasents‘</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1425">1425</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1425">1425</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1425">1425</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-28">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13478">Yohannēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1425">1425</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1425">1425</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1425">1425</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-29">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13427">T‘uma Minasents‘</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1428">1428</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1428">1428</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1428">1428</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-30">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13391">Step‘anos</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1428">1428</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1428">1428</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1428">1428</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-31">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13311">Nersēs</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1431">1431</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1431">1431</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1431">1431</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <event type="reference" source="#bib12811-32">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13427">T‘umay Minasents‘</persName>.</desc>
+                  <label type="event">
+                     <date type="point" when="1445">1445</date>
+                  </label>
+                  <label type="composition">
+                     <date type="point" when="1445">1445</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1445">1445</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1955">1955</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/12811</idno>
+               <bibl xml:id="bib12811-1">
+                  <author ref="https://medievalmideast.org/person/13388">Step‘anos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 762</citedRange>
+                  <citedRange unit="page">p. 611</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1395 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-2">
+                  <author ref="https://medievalmideast.org/person/13310">Nersēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 773</citedRange>
+                  <citedRange unit="page">p. 619</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1397 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-3">
+                  <author ref="https://medievalmideast.org/person/12846">Grigor (Tserents‘) Khlat‘ets‘i</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">no. 784a</citedRange>
+                  <citedRange unit="page">pp. 627-629</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1400 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-4">
+                  <author ref="https://medievalmideast.org/person/13493">Yovanēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XIV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1950</date>
+                  <ptr target="http://medievalmideast.org/bibl/24"/>
+                  <citedRange unit="entry">nos. 785a, c</citedRange>
+                  <citedRange unit="page">pp. 630, 631</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1400 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-5">
+                  <author ref="https://medievalmideast.org/person/13151">Tserun</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 4a</citedRange>
+                  <citedRange unit="page">I: p. 7</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1401 (no. 4)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-6">
+                  <author ref="https://medievalmideast.org/person/13551">Zak‘aria (I)</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 5</citedRange>
+                  <citedRange unit="page">I: p. 8</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1401 (no. 5)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-7">
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 12</citedRange>
+                  <citedRange unit="page">I: p. 17</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1401 (no. 7)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-8">
+                  <author ref="https://medievalmideast.org/person/13494">Yovanēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 19a</citedRange>
+                  <citedRange unit="page">I: p. 22</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1402 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-9">
+                  <author ref="https://medievalmideast.org/person/13376">Step‘annos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 44</citedRange>
+                  <citedRange unit="page">I: p. 43</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1404 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-10">
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 54</citedRange>
+                  <citedRange unit="page">I: p. 53</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1405 (no. 4)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-11">
+                  <author ref="https://medievalmideast.org/person/13494">Yovanēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 72a</citedRange>
+                  <citedRange unit="page">I: pp. 66-70</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1407 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-12">
+                  <author ref="https://medievalmideast.org/person/13551">Zak‘aria (I)</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 153</citedRange>
+                  <citedRange unit="page">I: p. 147</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1413 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-13">
+                  <author ref="https://medievalmideast.org/person/13206">Karapet</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 154a</citedRange>
+                  <citedRange unit="page">I: p. 149</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1413 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-14">
+                  <author ref="https://medievalmideast.org/person/13232">Ghazar</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 175</citedRange>
+                  <citedRange unit="page">I: p. 170</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1414 (no. 5)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-15">
+                  <author ref="https://medievalmideast.org/person/13377">Step‘annos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 185</citedRange>
+                  <citedRange unit="page">I: p. 177</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1415 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-16">
+                  <author ref="https://medievalmideast.org/person/13233">Ghazar</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 187</citedRange>
+                  <citedRange unit="page">I: p. 177</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1415 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-17">
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 216</citedRange>
+                  <citedRange unit="page">I: p. 203</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1417 (no. 4)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-18">
+                  <author ref="https://medievalmideast.org/person/13124">Astuatsatur</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 217</citedRange>
+                  <citedRange unit="page">I: p. 204</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1417 (no. 5)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-19">
+                  <author ref="https://medievalmideast.org/person/13378">Step‘annos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 247</citedRange>
+                  <citedRange unit="page">I: p. 226</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1419 (no. 3)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-20">
+                  <author ref="https://medievalmideast.org/person/13379">Step‘annos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 252</citedRange>
+                  <citedRange unit="page">I: p. 231</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1419 (no. 4)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-21">
+                  <author ref="https://medievalmideast.org/person/13427">T‘umay Minasents‘</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 263</citedRange>
+                  <citedRange unit="page">I: p. 238-239</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1420 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-22">
+                  <author ref="https://medievalmideast.org/person/13199">Izit</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 269a</citedRange>
+                  <citedRange unit="page">I: p. 243</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1420 (no. 4)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-23">
+                  <author ref="https://medievalmideast.org/person/13380">Step‘annos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 274</citedRange>
+                  <citedRange unit="page">I: p. 247</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1420 (no. 5)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-24">
+                  <author ref="https://medievalmideast.org/person/13364">Simēon</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 292</citedRange>
+                  <citedRange unit="page">I: p. 266</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1421 (no. 11)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-25">
+                  <author ref="https://medievalmideast.org/person/13434">Vardan</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 295</citedRange>
+                  <citedRange unit="page">I: p. 268</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1421 (no. 13)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-26">
+                  <author ref="https://medievalmideast.org/person/13206">Karapet</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 319</citedRange>
+                  <citedRange unit="page">I: p. 306</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1423 (no. 2)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-27">
+                  <author ref="https://medievalmideast.org/person/13427">T‘umay Minasents‘</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">nos. 345a, b</citedRange>
+                  <citedRange unit="page">I: pp. 326-327</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1425 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-28">
+                  <author ref="https://medievalmideast.org/person/13478">Yohannēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 361</citedRange>
+                  <citedRange unit="page">I: p. 342</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1425 (no. 8)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-29">
+                  <author ref="https://medievalmideast.org/person/13427">T‘uma Minasents‘</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 400a</citedRange>
+                  <citedRange unit="page">I: pp. 374-376</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1428 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-30">
+                  <author ref="https://medievalmideast.org/person/13391">Step‘anos</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 404</citedRange>
+                  <citedRange unit="page">I: p. 381</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1428 (no. 5)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-31">
+                  <author ref="https://medievalmideast.org/person/13311">Nersēs</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 441</citedRange>
+                  <citedRange unit="page">I: p. 412</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1431 (no. 3)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib12811-32">
+                  <author ref="https://medievalmideast.org/person/13427">T‘umay Minasents‘</author>
+                  <editor>L. S. Khach‘ikyan</editor>
+                  <title xml:lang="hy-Latn">XV Dari Hayeren Dzeṛagreri Hishatakaranner</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1955</date>
+                  <ptr target="http://medievalmideast.org/bibl/35"/>
+                  <citedRange unit="entry">no. 653</citedRange>
+                  <citedRange unit="page">I: pp. 579-581</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1445 (no. 1)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Dawit‘</term>
+                  </bibl>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

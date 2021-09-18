@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Muḥammad b. al-Ḥasan b. Durayd Abū Bakr</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>abstract</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/9577.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-9577">
+               <persName xml:id="name9577-1" xml:lang="en" himme-tags="#himme-headword">Muḥammad b. al-Ḥasan b. Durayd Abū Bakr</persName>
+               <persName xml:id="name9577-2" xml:lang="ar" source="#bib9577-1">
+                  <choice>
+                     <seg xml:lang="ar">محمد بن الحسن بن دريد أبو بكر</seg>
+                     <seg xml:lang="ar-Latn">Muḥammad b. al-Ḥasan b. Durayd Abū Bakr</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-9577">Author of the Kitāb al-Jamhara</note>
+               <sex value="M">male</sex>
+               <event type="reference" source="#bib9577-1">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/9577</idno>
+               <bibl xml:id="bib9577-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 64، 153، 193، 207، 242، 255، 274، 287، 336، 375، 400، 405، 407، 449، 493 (2) 71، 79، 118، 140، 151، 179، 181، 189، 192، 238، 248، 258، 277، 278، 281، 334، 370، 377، 385، 421، 424، 425، 427، 428، 487 (3) 8، 10، 24، 27، 44، 45، 53، 66، 68، 69، 72، 90، 109، 134، 155، 215، 222، 237، 276، 308، 310، 349، 354، 386، 402، 453، 454، 458، 459، 464 (4) 40، 83، 111، 112، 124، 132، 138، 157، 162، 170، 196، 205، 273، 311، 330، 368، 442، 459 (5) 15، 20، 42، 45، 54، 74، 89، 109، 149، 155، 162، 165، 192، 252، 262، 265، 276، 279، 298، 305، 306، 352، 353، 360، 365، 369، 379، 404، 450</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

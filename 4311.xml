@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Abū Ziyād Yazīd b. ʿAbdallāh al-Ḥurr al-Kilābī al-Kaʿbī</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/4311.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-4311">
+               <persName xml:id="name4311-1" xml:lang="en" himme-tags="#himme-headword">Abū Ziyād Yazīd b. ʿAbdallāh al-Ḥurr al-Kilābī al-Kaʿbī</persName>
+               <persName xml:id="name4311-2" xml:lang="ar" source="#bib4311-1">
+                  <choice>
+                     <seg xml:lang="ar">أبو زياد يزيد بن عبد الله الحر الكلابي الكعبي</seg>
+                     <seg xml:lang="ar-Latn">Abū Ziyād Yazīd b. ʿAbdallāh al-Ḥurr al-Kilābī al-Kaʿbī</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-4311">A person</note>
+               <sex value="M">male</sex>
+               <event type="reference" source="#bib4311-1">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/4311</idno>
+               <bibl xml:id="bib4311-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 11، 101، 108، 132، 134، 166، 219، 220، 253، 265، 280، 332، 335، 336، 341، 368، 375، 393، 394، 420، 447، 472، 478، 506، 529 (2) 11، 20، 31، 32، 65، 78، 79، 88، 98، 104، 110، 126، 145، 156، 162، 173، 174، 188، 190، 200، 208، 210، 241، 245، 258، 262، 273، 295، 309، 311، 314، 321، 364، 365، 377، 387، 393، 427، 438، 446، 458، 478 (3) 5، 6، 7، 10، 16، 21، 22، 41، 56، 92، 106، 110، 129، 139 (3) 188، 189، 194، 202، 220، 236، 244، 260، 271، 286، 291، 302، 322، 324، 330، 341، 343، 346، 351، 364، 371، 378، 408، 415، 421، 423، 452، 460 (4) 4، 50، 59، 63، 65، 66، 104، 105، 115، 131، 133، 138، 141، 152، 158، 160، 170، 173، 188، 192، 200، 222، 252، 271، 329، 337، 378، 399، 416، 418، 420، 427، 433، 434، 436، 437، 442، 451، 472، 483، 486، 494 (5) 11، 13، 17، 18، 44، 63، 73، 76، 77، 90، 104، 107، 118، 136، 143، 145، 146، 150، 152، 155، 189، 213، 234، 240، 252، 257، 258، 261، 265، 278، 286، 292، 299، 305، 328، 373، 377، 378، 396، 397، 407، 410، 427، 432، 433</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

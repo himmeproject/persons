@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:himme="http://medievalmideast.org"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">al-Aṣmaʿī Abū Saʿīd (ʿAbd al-Malik b. Qurayb)</title>
+            <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+            <principal>Thomas A. Carlson</principal>
+            <editor role="general-editor"
+                    ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <editor role="creator" ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</editor>
+            <respStmt>
+               <resp>Data merging and XML</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>gender assignment, matching, and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>HIMME: Historical Index of the Medieval Middle East</authority>
+            <idno type="URI">https://medievalmideast.org/person/1602.xml</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                                            Distributed under a Creative Commons Attribution 3.0 Unported License
+                                        </licence>
+            </availability>
+            <date>2021-09-16-05:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="himme-headword">
+                  <catDesc>The form of a name preferred by HIMME</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-1602">
+               <persName xml:id="name1602-1" xml:lang="en" himme-tags="#himme-headword">al-Aṣmaʿī Abū Saʿīd (ʿAbd al-Malik b. Qurayb)</persName>
+               <persName xml:id="name1602-2" xml:lang="ar" source="#bib1602-1">
+                  <choice>
+                     <seg xml:lang="ar">الأصمعي أبو سعيد (عبد الملك بن قريب)</seg>
+                     <seg xml:lang="ar-Latn">al-Aṣmaʿī Abū Saʿīd (ʿAbd al-Malik b. Qurayb)</seg>
+                  </choice>
+               </persName>
+               <note type="abstract" xml:id="abstract-en-1602">A person</note>
+               <sex value="M">male</sex>
+               <event type="reference" source="#bib1602-1">
+                  <desc xml:lang="en">Event mentioned by <persName>Yāqūt al-Ḥamawī</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1228">before c. 1225</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1222" notAfter="1228">c.1225</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1472-11-26">877 A.H. / 1472</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1995">1995</date>
+                  </label>
+               </event>
+               <idno type="URI">https://medievalmideast.org/person/1602</idno>
+               <bibl xml:id="bib1602-1">
+                  <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
+                  <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
+                  <pubPlace>Beirut</pubPlace>
+                  <publisher>Dār Ṣādr</publisher>
+                  <date>1995</date>
+                  <ptr target="http://medievalmideast.org/bibl/9"/>
+                  <citedRange unit="page">(1) 11، 77، 80، 85، 96، 100، 102، 105، 106، 108، 114، 122، 130، 135، 166، 189، 205، 211، 213، 220، 222، 224، 233، 234، 240، 241، 248، 254، 272، 289، 299، 322، 340، 364، 375، 392، 405، 407، 411، 414، 423، 432، 439، 443، 449، 472، 475، 485، 493، 509، 523، 536 (2) 21، 23، 58، 63، 67، 70، 73، 83، 110، 130، 132، 150، 173، 213، 219، 225، 229، 245، 246، 252، 255، 257، 267، 275، 295، 306، 308، 312، 316، 319، 320، 325، 338، 345، 355، 375، 382، 401، 404، 406، 408، 414، 416، 426، 435، 437، 440، 444، 459، 461، 464، 480، 490، 544 (3) 3، 9، 13، 21، 23، 24، 27، 38، 44، 47، 51، 54، 56، 59، 63، 64، 72، 74، 85، 108، 111، 133، 134، 155، 156، 166، 183، 189، 196، 201، 204، 217، 228، 235، 237، 241، 243، 246، 248، 264، 270، 271، 273، 276، 284، 295، 327، 331، 333، 334، 336، 337، 339، 342، 344، 345، 349، 356، 365، 387، 389، 397، 408، 415، 420، 421، 423، 449، 451، 453، 457، 458، 463 (4) 20، 23، 35، 37، 40، 42، 45، 56، 57، 60، 62، 63، 68، 77، 82، 84، 86، 88، 90، 93، 99، 101، 102، 106، 108، 111، 115، 121، 124، 127، 129، 132، 138، 142، 143، 146، 158، 161، 166، 171، 173، 174، 188، 189، 196، 217، 220، 232، 235، 236، 246، 255، 266، 269، 276، 290، 295، 311، 316، 320، 324، 332، 333، 345، 351، 361، 367، 370، 374، 376، 383، 394، 407، 411، 434، 437، 444، 471 (5) 3، 9، 12، 13، 30، 40، 48، 52، 54، 55، 59، 62، 66، 92، 94، 96، 98، 103، 109، 117، 131، 133، 135، 146، 147، 151، 153، 154، 155، 163، 175، 178، 188، 198، 199، 207، 212، 225، 241، 250، 252، 256، 258، 262، 274، 275، 279، 283، 290، 293، 298، 305، 348، 360، 362، 376، 381، 396، 404، 407، 424، 438، 442، 448، 451، 452</citedRange>
+                  <textLang>Arabic</textLang>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
