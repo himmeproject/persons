@@ -22,6 +22,10 @@
                <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
             </respStmt>
             <respStmt>
+               <resp>abstract and errata note</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
                <resp>birth/death/floruit dates entry</resp>
                <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
             </respStmt>
@@ -45,7 +49,7 @@
                                             Distributed under a Creative Commons Attribution 3.0 Unported License
                                         </licence>
             </availability>
-            <date>2021-09-16-05:00</date>
+            <date>2021-11-07-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -61,6 +65,10 @@
          </classDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-11-07-05:00">ADDED: abstract and errata note</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-11-07-05:00">CORRECTED: Sanjian event dates and floruit date</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">ADDED: Sanjian names and events</change>
          <change who="https://medievalmideast.org/editors.xml#tcarlson"
@@ -80,9 +88,9 @@
                      <seg xml:lang="hy-Latn">Karapet</seg>
                   </choice>
                </persName>
-               <note type="abstract" xml:id="abstract-en-12883">A person</note>
+               <note type="abstract" xml:id="abstract-en-12883">Armenian Catholicos of Cilicia</note>
                <sex value="M">male</sex>
-               <floruit notBefore="1446" notAfter="1469">1446-1469</floruit>
+               <floruit notBefore="1446" notAfter="1464">1446-1464</floruit>
                <event type="reference" source="#bib12883-1">
                   <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/13174">Grigor</persName>.</desc>
                   <label type="event">
@@ -116,18 +124,19 @@
                <event type="reference" source="#bib12883-3">
                   <desc xml:lang="en">Event mentioned by an Armenian scribe.</desc>
                   <label type="event">
-                     <date type="point" when="1469">1469</date>
+                     <date type="point" when="1446">1446</date>
                   </label>
                   <label type="composition">
-                     <date type="point" when="1469">1469</date>
+                     <date type="point" when="1446">1446</date>
                   </label>
                   <label type="manuscript">
-                     <date type="point" when="1469">1469</date>
+                     <date type="point" when="1446">1446</date>
                   </label>
                   <label type="edition">
                      <date type="point" when="1958">1958</date>
                   </label>
                </event>
+               <note type="errata" source="#bib12883-3" resp="https://medievalmideast.org/editors.xml#tcarlson">The Armenian colophon included in Khach‘ikyan, <title>XV Dari</title>, II: no. 368, p. 284-285, Sanjian, <title>Colophons</title>, 1469 (no. 6), is misdated by them to 1469 when in fact it was composed in 1446. </note>
                <idno type="URI">https://medievalmideast.org/person/12883</idno>
                <bibl xml:id="bib12883-1">
                   <author ref="https://medievalmideast.org/person/13174">Grigor</author>
