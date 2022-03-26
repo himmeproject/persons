@@ -66,7 +66,11 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
-                 when="2021-09-16-05:00">ADDED: Michael the Syrian name and event</change>
+            when="2022-03-26-05:00">CORRECTED: abstract corrected to say vizier rather than emir, and Syriac transliteration made more precise</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2022-03-26-05:00">ADDED: Bar Hebraeus' Ecclesiastical Chronicle reference</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+                 when="2021-09-16-05:00">ADDED: Bar Hebraeus name and event</change>
          <change who="https://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">CREATED: person</change>
       </revisionDesc>
@@ -76,15 +80,15 @@
          <listPerson>
             <person xml:id="person-18623">
                <persName xml:id="name18623-1" xml:lang="en" himme-tags="#himme-headword">Jamāl al-Dīn</persName>
-               <persName xml:id="name18623-2" xml:lang="syr" source="#bib18623-1">
+               <persName xml:id="name18623-2" xml:lang="syr" source="#bib18623-1 #bib18623-2">
                   <choice>
                      <seg xml:lang="syr">ܓܡܐܠ ܐܠܕܝܢ</seg>
-                     <seg xml:lang="syr-Latn">GMʾL ʾLDYΝ</seg>
+                     <seg xml:lang="syr-Latn">Gamāl Aldīn</seg>
                   </choice>
                </persName>
-               <note type="abstract" xml:id="abstract-en-18623">emir of Mosul</note>
+               <note type="abstract" xml:id="abstract-en-18623">vizier of Mosul in the mid-6th/12th century</note>
                <sex value="M">male</sex>
-               <event type="reference" source="#bib18623-1">
+               <event type="reference" source="#bib18623-1 #bib18623-2">
                   <desc xml:lang="en">Events mentioned by <persName>Bar Hebraeus</persName>
                   </desc>
                   <label type="event">
@@ -123,6 +127,17 @@
                      <textLang>French</textLang>
                      <term>Djémal ed-Dîn</term>
                   </bibl>
+               </bibl>
+               <bibl xml:id="bib18623-2">
+                  <author>Gregory Bar Hebraeus</author>
+                  <editor role="translator">David Wilmshurst</editor>
+                  <title>The Ecclesiastical Chronicle: An English Translation</title>
+                  <pubPlace>Piscataway, N.J.</pubPlace>
+                  <publisher>Gorgias Press</publisher>
+                  <date>2016</date>
+                  <ptr target="http://medievalmideast.org/bibl/37"/>
+                  <citedRange unit="page">426-427</citedRange>
+                  <textLang>Syriac with English Translation</textLang>
                </bibl>
             </person>
          </listPerson>
